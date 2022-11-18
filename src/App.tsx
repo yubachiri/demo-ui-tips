@@ -34,7 +34,7 @@ export const App = () => {
 
   return (
     <ChakraProvider theme={theme}>
-      <Center height='100vh'>
+      <Center height='120vh'>
         <Box maxW='500px'>
           <CustomInput/>
           <InputWithRef ref={inputRef} mt={8}/>
